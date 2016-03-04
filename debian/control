@@ -1,0 +1,16 @@
+Source: twx.botapi
+Maintainer: Pim van den Berg <pim.van.den.berg@mendix.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 8~), dh-python, python-all (>= 2.6.6-3~), python-setuptools
+Standards-Version: 3.9.4
+Homepage: https://github.com/datamachine/twx.botapi
+X-Python-Version: >= 2.7
+
+Package: python-twx.botapi
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Unofficial Telegram Bot API Library and Client
+ twx.botapi is a python interface for the Telegram bot API. It supports making
+ synchronous and asynchronous calls and converts the response into a usable
+ native python object.
